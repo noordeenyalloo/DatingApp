@@ -1,2 +1,15 @@
-<h1>Dating App</h1>
-<p>{{title}}</p>
+<app-nav></app-nav>
+<div class="container mt-5">
+  <h1>Dating App</h1>
+  <p>{{title}}</p>
+  <ul>
+    <li *ngFor='let user of users'>
+      ID : {{user.id}} - Name : {{user.userName}}
+    </li>
+  </ul>
+</div>
+
+
+
+
+
